@@ -15,7 +15,7 @@ RUN groupadd -r opencart  \
 # WORKDIR /
 
 COPY rootfs /
-COPY khaltiopencart /root
+COPY khalti-extension /root
 
 ENV ALLOW_EMPTY_PASSWORD="no" \
     APACHE_HTTPS_PORT_NUMBER="443" \
